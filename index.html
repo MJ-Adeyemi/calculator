@@ -20,39 +20,39 @@
             <br>
 
             
-            <textarea id="display" class="bg-black text-white outline-none w-full h-[180px] px-[25px] text-white bottom-0 right-0 text-[60px] overflow-hidden resize-none whitespace-nowrap" maxlength="9" rows="1" readonly></textarea>
+            <input id="display" class="bg-black text-white outline-none w-full h-[180px] md:h-[319px] px-[25px] md:px-[125px] text-white bottom-0 right-0 text-[60px] overflow-hidden resize-none whitespace-nowrap" maxlength="9" rows="1" readonly></input>
 
-            <div class="space-y-[12px]">
-                <div class="flex gap-[20px] justify-center">
+            <div class="space-y-[12px] md:space-y-[20px]">
+                <div class="flex gap-[20px] justify-center md:gap-[80px]">
                     <button onclick="clearAll()" id="btnC" class="text-black w-[65px] h-[65px] bg-gray-300 active:bg-gray-100 rounded-full font-bold text-[25px]">C</button>
-                    <button onclick="pom()" id="btnPom" class="text-black w-[65px] h-[65px] bg-gray-300 active:bg-gray-100 rounded-full font-bold text-[25px]">+/-</button>
+                    <button onclick="negate()" id="btnPom" class="text-black w-[65px] h-[65px] bg-gray-300 active:bg-gray-100 rounded-full font-bold text-[25px]">+/-</button>
                     <button onclick="percent()" id="btnPercent" class="text-black w-[65px] h-[65px] bg-gray-300 active:bg-gray-100 rounded-full font-bold text-[25px]">%</button>
                     <button onclick="divide()" id="btnDivide" class="text-white w-[65px] h-[65px] bg-yellow-500 focus:bg-white focus:text-yellow-500 rounded-full font-bold text-[35px]">&divide;</button>
                 </div>
 
-                <div class="flex gap-[20px] justify-center">
+                <div class="flex gap-[20px] justify-center md:gap-[80px]">
                     <button onclick="seven()" id="btn7" class="text-white w-[65px] h-[65px] bg-neutral-700 active:bg-neutral-500 rounded-full font-bold text-[25px]">7</button>
                     <button onclick="eight()" id="btn8" class="text-white w-[65px] h-[65px] bg-neutral-700 active:bg-neutral-500 rounded-full font-bold text-[25px]">8</button>
                     <button onclick="nine()" id="btn9" class="text-white w-[65px] h-[65px] bg-neutral-700 active:bg-neutral-500 rounded-full font-bold text-[25px]">9</button>
                     <button onclick="times()" id="btnTimes" class="text-white w-[65px] h-[65px] bg-yellow-500 focus:bg-white focus:text-yellow-500 rounded-full font-bold text-[35px]">&times;</button>
                 </div>
 
-                <div class="flex gap-[20px] justify-center">
+                <div class="flex gap-[20px] justify-center md:gap-[80px]">
                     <button onclick="four()" id="btn4" class="text-white w-[65px] h-[65px] bg-neutral-700 active:bg-neutral-500 rounded-full font-bold text-[25px]">4</button>
                     <button onclick="five()" id="btn5" class="text-white w-[65px] h-[65px] bg-neutral-700 active:bg-neutral-500 rounded-full font-bold text-[25px]">5</button>
                     <button onclick="six()" id="btn6" class="text-white w-[65px] h-[65px] bg-neutral-700 active:bg-neutral-500 rounded-full font-bold text-[25px]">6</button>
                     <button onclick="minus()" id="btnMinus" class="text-white w-[65px] h-[65px] bg-yellow-500 focus:bg-white focus:text-yellow-500 rounded-full font-bold text-[35px]">&#x2212;</button>
                 </div>
 
-                <div class="flex gap-[20px] justify-center">
+                <div class="flex gap-[20px] justify-center md:gap-[80px]">
                     <button onclick="one()" id="btn1" class="text-white w-[65px] h-[65px] bg-neutral-700 active:bg-neutral-500 rounded-full font-bold text-[25px]">1</button>
                     <button onclick="two()" id="btn2" class="text-white w-[65px] h-[65px] bg-neutral-700 active:bg-neutral-500 rounded-full font-bold text-[25px]">2</button>
                     <button onclick="three()" id="btn3" class="text-white w-[65px] h-[65px] bg-neutral-700 active:bg-neutral-500 rounded-full font-bold text-[25px]">3</button>
                     <button onclick="add()" id="btnAdd" class="text-white w-[65px] h-[65px] bg-yellow-500 focus:bg-white focus:text-yellow-500 rounded-full font-bold text-[35px]">+</button>
                 </div>
 
-                <div class="flex gap-[20px] justify-center">
-                    <button onclick="zero()" id="btn0" class="text-white w-[150px] h-[65px] bg-neutral-700 active:bg-neutral-500 rounded-full font-bold text-[25px]">0</button>
+                <div class="flex gap-[20px] justify-center md:gap-[87px]">
+                    <button onclick="zero()" id="btn0" class="text-white w-[150px] md:w-[200px] h-[65px] bg-neutral-700 active:bg-neutral-500 rounded-full font-bold text-[25px]">0</button>
                     <button onclick="point()" id="btnPoint" class="text-white w-[65px] h-[65px] bg-neutral-700 active:bg-neutral-500 rounded-full font-bold text-[25px]">.</button>
                     <button onclick="equals()" id="btnEqualsto" class="text-white w-[65px] h-[65px] bg-yellow-500 focus:bg-white focus:text-yellow-500 rounded-full font-bold text-[35px]">=</button>
                 </div>

@@ -5,8 +5,16 @@ function clearAll(){
     display.value = ''
 }
 
-function pom(){
-    display.value += ''
+function negate(){
+    // display.value += ''
+    let currentValue = parseFloat (display.value);
+
+    if (currentValue !== 0){
+        // Negate the value
+        currentValue = -currentValue;
+    }
+
+    display.value = currentValue
 }
 
 function percent(){
